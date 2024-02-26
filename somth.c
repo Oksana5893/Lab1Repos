@@ -8,7 +8,8 @@ namespace HelloWorld
         {
             Console.Write("Введите свое имя: ");
             string name = Console.ReadLine();
-            Console.WriteLine($"Привет {name}");   
+            Console.WriteLine($"Привет, {name}");
+	    Console.WriteLine($"Какой сегодня хороший день!");    
         }
     }
 }
